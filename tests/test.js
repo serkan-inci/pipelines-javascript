@@ -10,21 +10,3 @@ describe('String', function () {
         });
     });
 });
-
-describe('Math', function () {
-    describe('#floor', function () {
-        it('basic', function () {
-            var myNumber = 5.7;
-
-            assert.equal(5, Math.floor(myNumber));
-        });
-    });
-    
-    describe('#ceiling', function () {
-        it('basic', function () {
-            var myNumber = 5.7;
-
-            assert.equal(5, Math.ceiling(myNumber));
-        });
-    });
-});
